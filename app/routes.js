@@ -12,6 +12,7 @@ module.exports = function(app, passport) {
         partials: {'content': 'login'},
         message: req.flash('loginMessage')
       });
+
 	});
 
 	// process the login form
